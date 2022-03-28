@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css" />
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/694dcac139.js" crossorigin="anonymous"></script>
+    <!-- unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- icon title -->
+    <link rel="icon" href="/main-img/title.png" type="img/png" sizes="15x15" />
+<!-- title -->
+    <title> RUFUF </title>
+
+
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark    text-light fixed-top ">
+        <div class="container ">
+            <!-- logo -->
+            <a href="#index.html"
+                class="navbar-brand d-flex justify-content-between align-items-center order-lg-0 order-lg-0">
+                <img src="/main-img/logo1.svg" alt="icon">
+                <!-- <span class="text-uppercase fw-bold ms-2 "> rufuf</span> -->
+            </a>
+
+            <!-- nav icon -->
+            <div class="order-lg-2 nav-btns">
+                <!-- user icon -->
+
+                <button type="button" class="btn position-relative">
+                    <a href="login"> <i class="fa fa-user "></i></a>
+                </button>
+
+                <!-- shopping icon -->
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-shopping-cart "></i>
+                    <span
+                        class="num-icon position-absolute top-0 start-95  translate-middle badge rounded-circle bg-danger ">6</span>
+                </button>
+
+                <!-- heart icon -->
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-heart "></i>
+
+                </button>
+
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- nav -->
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center  ">
+                    <li class="nav-item px-2 py-2 ">
+                        <a class="nav-link text-uppercase text-light" href="#header">home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-light" href="#collection">collection</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-light" href="#blogs">blogs</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-light" href="#about">about us</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-light" href="#ss">special</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 border-0">
+                        <a class="nav-link text-uppercase text-light" href="#help">help</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+    <!-- end of navbar -->
+
+
+
+
+    <!-- header -->
+    <header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 104px;">
+        <div class="container h-100 d-flex align-items-center pb-4 carousel-inner">
+            <div class="text-center carousel-item active">
+                <h2 class="text-capitalize text-white">best collection</h2>
+                <h1 class="text-uppercase py-2 fw-bold text-white">new arrivals</h1>
+                <a href="#" class="btn mt-3 text-uppercase">shop now</a>
+            </div>
+
+
+            <div class="text-center carousel-item">
+                <h2 class="text-capitalize text-white">New Releases</h2>
+                <h1 class="text-uppercase py-2 fw-bold text-white">new Books</h1>
+                <a href="#" class="btn mt-3 text-uppercase">buy now</a>
+            </div>
+
+
+            <div class="text-center carousel-item">
+                <h2 class="text-capitalize text-white">Bookseller Favorites</h2>
+                <h1 class="text-uppercase py-2 fw-bold text-white">new offer</h1>
+                <a href="#" class="btn mt-3 text-uppercase">buy now</a>
+            </div>
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </header>
+    <!-- end of header -->
+
+
+
+
+    <!-- collection -->
+    <section id="collection" class="py-5">
+        <div class="container" id="storep-roducts">
+            <div class="title text-center">
+                <h2 class="position-relative d-inline-block">New Collection</h2>
+            </div>
+
+            <div class="row g-0">
+                <div class="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
+                    <button type="button" class="btn coll-btn m-2 active-filter-btn" data-filter="all">All</button>
+                    <button type="button" class="btn coll-btn m-2" data-filter="best">Best Sellers</button>
+                    <button type="button" class="btn coll-btn m-2" data-filter="feat">Novels</button>
+                    <button type="button" class="btn coll-btn m-2" data-filter="new">Historical Books</button>
+                </div>
+
+                <div class="collection-list mt-4 row gx-0 gy-3">
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 book-store " data-item="best">
+                        <div class="collection-img position-relative">
+                            <img src="/best-books-2021/book-0-af.png" class="w-100">
+                            <span
+                                class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">The Art City</p>
+                            <span class="fw-bold">$ 21.50</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 book-store " data-item="feat">
+                        <div class="collection-img position-relative">
+                            <img src="/best-books-2021/book-1-af.png" class="w-100">
+
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1 ">GIVE thanks In everything</p>
+                            <span class="fw-bold d-block ">$ 8.00</span>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 book-store " data-item="new">
+                        <div class="collection-img position-relative">
+                            <img src="/best-books-2021/book-2-af.png" class="w-100">
+                            <span
+                                class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Big Sale Cash</p>
+                            <span class="fw-bold d-block">$ 19.9</span>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 book-store " data-item="best">
+                        <div class="collection-img position-relative">
+                            <img src="/best-books-2021/book-3-af.png" class="w-100">
+
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Your Title Goes Here</p>
+                            <span class="fw-bold">$ 45.50</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 book-store " data-item="feat">
+                        <div class="collection-img position-relative">
+                            <img src="/best-books-2021/book-4-af.png" class="w-100">
+                            <span
+                                class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Music Rock</p>
+                            <span class="fw-bold">$ 20.9</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 book-store " data-item="new">
+                        <div class="collection-img position-relative">
+                            <img src="/best-books-2021/book-5-af.png" class="w-100">
+
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">Green Life</p>
+                            <span class="fw-bold">$ 20.00</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 book-store " data-item="best">
+                        <div class="collection-img position-relative">
+                            <img src="/best-books-2021/book-10-af.png" class="w-100">
+
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                            </div>
+                            <p class="text-capitalize my-1">The Lyrics: 1956 to the Present</p>
+                            <span class="fw-bold">$ 10.00</span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 col-xl-3 p-2 book-store  " data-item="feat">
+                        <div class="collection-img position-relative">
+                            <img src="/best-books-2021/book-7-af.png" class="w-100">
+                            <span
+                                class="position-absolute  text-white d-flex align-items-center justify-content-center">sale</span>
+                        </div>
+                        <div class="text-center">
+                            <div class="rating mt-3">
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+                                <span class="text-primary"><i class="fas fa-star"></i></span>
+
+                            </div>
+                            <p class="text-capitalize my-1">love</p>
+                            <span class="fw-bold">$ 5.50</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of collection -->
+
+
+
+
+    <!-- blogs -->
+    <section id="blogs" class="py-5">
+        <div class="container">
+            <div class="title text-center  py-5">
+                <h2 class="position-relative d-inline-block fw-bold">Our Latest Blog</h2>
+            </div>
+
+            <div class="row g-3">
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="/blog/1-library.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
+                        <p class="card-text mt-3 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Eveniet aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia
+                            itaque ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.</p>
+
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="/blog/2-cafe.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
+                        <p class="card-text mt-3 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Eveniet aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia
+                            itaque ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.</p>
+
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="/blog/3-learn.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
+                        <p class="card-text mt-3 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Eveniet aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia
+                            itaque ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.</p>
+
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of blogs -->
+
+
+
+
+    <!-- about us -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row gy-lg-5 align-items-center">
+                <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+                    <div class="title pt-3 pb-3">
+                        <h2 class="position-relative d-inline-block ms-2 fw-bold">About Us:</h2>
+                    </div>
+                    <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ipsam.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fuga blanditiis, modi
+                        exercitationem quae quam eveniet! Minus labore voluptatibus corporis recusandae accusantium
+                        velit,
+                        nemo, nobis, nulla ullam pariatur totam quos.</p>
+                </div>
+                <div class="col-lg-6 order-lg-0">
+                    <img src="/main-img/about2.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of about us -->
+
+
+
+
+    <!-- trend products -->
+    <section id="ss" class="py-5">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h2 class="position-relative d-inline-block fw-bold">trend collaction</h2>
+            </div>
+
+            <div class="special-list row g-0">
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="/best-books-2021/book-7-af.png" class="w-100">
+
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">The Lyrics: 1956 to the Present</p>
+                        <span class="fw-bold d-block">$ 25.9</span>
+                        <a href="#" class="btn mt-3">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="/best-books-2021/book-8-af.png" class="w-100">
+
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Three Pianos: A Memoir</p>
+                        <span class="fw-bold d-block">$ 10.5</span>
+                        <a href="#" class="btn mt-3">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="/best-books-2021/book-5-af.png" class="w-100">
+
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Three Pianos: A Memoir </p>
+                        <span class="fw-bold d-block">$ 7.00</span>
+                        <a href="#" class="btn mt-3">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="/best-books-2021/book-3-af.png" class="w-100">
+
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1"> Till the End </p>
+                        <span class="fw-bold d-block">$ 28.00</span>
+                        <a href="#" class="btn mt-3">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of trend collaction -->
+
+
+
+
+    <!-- newsletter -->
+    <section id="newsletter" class="py-5">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <div class="title text-center pt-3 pb-2">
+                    <h2 class="position-relative d-inline-block ms-4 ">Newsletter Subscription</h2>
+                </div>
+
+                <p class="text-center  text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+                    praesentium recusandae architecto dignissimos saepe, labore expedita veritatis ad?</p>
+                <div class="input-group mb-3 mt-2">
+                    <input type="text" class="form-control" placeholder="Enter Your Email ...">
+                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of newsletter -->
+
+
+
+
+    <!-- footer -->
+    <footer id="help" class="footer py-5">
+        <div class="container">
+            <div class="row text-white g-4">
+                <div class=" col-lg-3 col-md-6 ">
+
+                    <!-- descrption -->
+                    <a class="brand text-uppercase text-decoration-none  text-white" href="index.html">RUFUF</a>
+                    <p class="text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+                </div>
+
+                <!-- Links -->
+                <div class=" col-lg-3 col-md-6 ">
+                    <h5 class="fw-light">Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-2"></i> Home
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-2"></i> Collection
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-2"></i> Blogs
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-2"></i> About Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Info -->
+                <div class="col-lg-3 col-md-6 ">
+                    <h5 class="fw-light mb-3">Contact Us</h5>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted  ">
+                        <span class="me-3">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            AL-Raheed Street, Baghdad, Lot 198, IRAQ
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="fw-light">
+                            Rufuf.support@gmail.com
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-phone-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            +964 127 386 02
+                        </span>
+                    </div>
+                </div>
+                <!-- social-media -->
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-3">Follow Us</h5>
+                    <div>
+                        <ul class="list-unstyled d-flex">
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-whatsapp"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+
+
+    <!-- bootstrap javascript  -->
+    <script src="/bootstrap/js/bootstrap.js"></script>
+
+    <!-- javascript -->
+    <script src="/script.js"></script>
+</body>
+
+</html>
